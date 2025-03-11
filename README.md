@@ -19,11 +19,10 @@
   - **Aerial imagery dataset**
     
     航拍数据集包含从新西兰基督城 0.075 米空间分辨率和 450 平方公里覆盖范围内的航拍图像中提取的 220,000 多座独立建筑物。包含原始航空影像和裁切后的图像。
-</br></br>
+
   - **Satellite dataset I (global cities)**
   
     从世界各地的城市和各种遥感资源收集的，包括 QuickBird、Worldview 系列、IKONOS、ZY-3 等。包含 204 张图像（512 × 512 块，分辨率从 0.3 米到 2.5 米不等）。除了卫星传感器的差异外，大气条件、全色和多光谱融合算法、大气和辐射校正以及季节的变化也使样本适合但具有挑战性，无法测试建筑物提取算法的稳健性。
-</br></br>
 
   - **Satellite dataset Ⅱ (East Asia)**
   
@@ -31,11 +30,10 @@
     该测试区域主要用于评估和开发深度学习方法对同一地理区域内不同数据源但具有相似建筑风格的建筑物的泛化能力。
     矢量建筑物地图也是在 ArcGIS 软件中完全手动描绘的，包含 34085 座建筑物。
     整幅图像被无缝裁剪成 17388 个 512×512 的图块，以方便训练和测试，处理方式与我们的航空数据集相同。其中 25749 座建筑物（13662 个图块）被分离出来用于训练，其余 8358 座建筑物（3726 个图块）用于测试。
-</br></br>
-   - **Building change detection dataset**
 
-    由2012年4月获得的航拍图像组成，其中包含 20.5 平方公里内的 12796 栋建筑物（2016 年数据集中的同一区域有 16077 栋建筑物）
-</br></br>
+   - **Building change detection dataset**
+  由2012年4月获得的航拍图像组成，其中包含 20.5 平方公里内的 12796 栋建筑物（2016 年数据集中的同一区域有 16077 栋建筑物）
+
 
 | WHU  |  Aerial imagery dataset   | Satellite dataset I (global cities) |  Satellite dataset Ⅱ (East Asia)  | Satellite dataset Ⅱ (East Asia) |   
 |:----:|:-------------------------:|:-----------------------------------:|:---------------------------------:|:-------------------------------:|
@@ -47,19 +45,19 @@
     download: [**download(Kaggle)**](https://www.kaggle.com/datasets/balraj98/massachusetts-buildings-dataset) | [**download(阿里云)**](https://tianchi.aliyun.com/dataset/93425) 
     马萨诸塞州建筑数据集包含 151 张波士顿地区的航拍图像，每张图像的尺寸为 1500 × 1500 像素，面积为 2.25 平方公里。 
     因此，整个数据集覆盖大约 340 平方公里。数据分为 137 张图像的训练集、10 张图像的测试集和 4 张图像的验证集。
-</br></br>
+
 - **<font size=5>ISPRS Vaihingen (build)</font>**
  
   download: [**download(飞浆AI)**](https://aistudio.baidu.com/datasetdetail/245379) 
       
   包含33幅不同大小的遥感图像和对应的DSM，分辨率为9厘米，类别：不透水面（rgb: 255, 255, 255）；建筑物（rgb: 0, 0, 255）；低矮植被（rgb: 0, 255, 255）；树木（rgb: 0, 255, 0）；汽车（rgb: 255, 255, 0）；背景（rgb: 255, 0, 0）
-</br></br>
+
 - **<font size=5>ISPRS Potsdam (build)</font>**
  
   download: [**download(飞浆AI)**](https://aistudio.baidu.com/datasetdetail/145287) 
       
   包含 38 个大小相同的图像块，每个图像块均由从较大的顶部镶嵌图中提取的真正射影像构成。这些图像的空间分辨率为 5 厘米，尺寸为 6000×6000 像素
-</br></br>
+
 - **<font size=5>Inria Aerial Image Labeling Dataset (build)</font>**
 
   [**介绍**](https://project.inria.fr/aerialimagelabeling/) |   [**download(飞浆AI)**](https://aistudio.baidu.com/datasetdetail/126725)
