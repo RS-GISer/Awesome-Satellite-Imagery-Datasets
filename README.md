@@ -84,7 +84,7 @@
   LoveDA 数据集包含来自三个不同城市(南京、常州、武汉)，城市、农村地区的5987张0.3m高分辨率影像(1024*1024)和166,768个标注语义对象。
 
   类别：Building, Road, Water, Barren, Forest, Agricultural, Background
-</br></br>
+
 - **<font size=5>landcover.ai</font>**
 
   [**原文**](https://arxiv.org/pdf/2005.02264) | [**github**](https://github.com/MortenTabaka/Semantic-segmentation-of-LandCover.ai-dataset) |   [**download(Kaggle)**](https://www.kaggle.com/datasets/adrianboguszewski/landcoverai)
