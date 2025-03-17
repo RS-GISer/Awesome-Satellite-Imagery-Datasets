@@ -98,6 +98,10 @@
 
   加拿大渥太华几个典型的城区，图像的空间分辨率为每像素 0.21 米
 
+| dataset |   Global_Scale (Road)   |         Massachusetts Roads Dataset          |            CHN6-CUG-Roads-Dataset            |         RoadNet         |
+|:-------:|:-----------------------:|:--------------------------------------------:|:--------------------------------------------:|:-----------------------:| 
+|  View   | ![img15.png](img15.png) | ![img_16.png](img_16.png) | ![img17.png](img17.png) | ![img18.png](img18.png) |  
+
 
 ##  Multi-class Dataset
 - **<font size=5>LoveDA</font>**
@@ -117,7 +121,7 @@
   类别：Build(1), Wood(2), Water(3), Road(4)
 
 
-| dataset |           RoadNet         |           LoveDA          |         landcover.ai      |
-|:-------:|:-------------------------:|:-------------------------:|:-------------------------:|
-|  View   | ![img_10.png](img_10.png) | ![img_11.png](img_11.png) | ![img_14.png](img_14.png) |
+| dataset |           LoveDA          |         landcover.ai      |
+|:-------:|:-------------------------:|:-------------------------:|
+|  View   | ![img_11.png](img_11.png) | ![img_14.png](img_14.png) |
 
