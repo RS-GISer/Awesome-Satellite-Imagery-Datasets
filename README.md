@@ -7,8 +7,8 @@
 ⭐ 公众号：Deeeep Learning
 
 # News
-
-- 2025-03-11:  遥感影像语义分割数据集
+- ⭐补充更新部分道路数据集(CVPR 2025, etc)
+- 遥感影像语义分割数据集
 
 ## 1、 语义分割
 ## Build Dataset
@@ -69,12 +69,35 @@
 |  View   |   ![img_6.png](img_6.png)      |   ![img_7.png](img_7.png)    | ![img_1.png](img_1.png) |      ![img_9.png](img_9.png)        |      ![img_4.png](img_4.png)      |  |  
 
 ## Road Dataset
+- **<font size=5>Global_Scale (Road) CVPR2025</font>**
+
+  [**原文**](https://arxiv.org/pdf/2411.16733) | [**github**](https://github.com/earth-insights/samroadplus?tab=readme-ov-file) 
+  
+  文章提出了Global-Scale数据集，该数据集相比以往的公共道路提取数据集扩大了约20倍，覆盖13,800 km²，包含不同地形（城市、农村、山地等），比现有的City-Scale和SpaceNet数据集更全面。
+  </br>总影像数： 3,468 张影像尺寸： 每张影像 **2048 × 2048** 像素分辨率： **1m/pixel**； 地理覆盖范围： 覆盖全球，包含 除南极洲外的所有大陆数据来源：卫星影像： Google Earth道路图数据（Ground Truth）： OpenStreetMap（OSM）
+  
+- **<font size=5>Massachusetts Roads Dataset (Road)</font>**
+
+  [**download(Kaggle)**](https://www.kaggle.com/datasets/balraj98/massachusetts-roads-dataset)
+
+  马萨诸塞州道路数据集包含马萨诸塞州的 1171 张航拍图像。每张图像大小为 1500×1500 像素，覆盖面积为 2.25 平方公里。我们将数据随机分成 1108 张图像的训练集、14 张图像的验证集和 49 张图像的测试集。该数据集涵盖了各种城市、郊区和农村地区，覆盖面积超过 2600 平方公里。仅测试集就覆盖了超过 110 平方公里。目标地图是通过栅格化从 OpenStreetMap 项目获得的道路中心线生成的。生成标签时使用的线条粗细为 7 像素，没有平滑处理。所有图像都重新缩放为每平方米 1 像素的分辨率。
+
+- **<font size=5>CHN6-CUG-Roads-Dataset (Road)</font>**
+
+  [**github**](https://github.com/CUG-URS/CHN6-CUG-Roads-Dataset)
+
+  CHN6-CUG道路数据集是一套新的中国代表性城市大型卫星影像数据集，其遥感影像底图来自 Google Earth，选取了具有不同城市化水平、城市规模、发展程度、城市结构和历史文化的城市，
+  包括北京朝阳区、杨浦区、  上海市中心城区、武汉市中心城区、深圳南山区、香港沙田区及澳门地区。
+  CHN6-CUG 共包含 4511 张 512×512 大小的标注图像，其中 3608 张用于模型训练，903 张用于测试及结果评估，分辨率为 50 cm/pixel。
+  原始数据集为 .jpg 格式，道路标线图为 .png 格式。压缩后数据量为 175MB。
+
 - **<font size=5>RoadNet (Road)</font>**
+
+  [**原文**](https://ieeexplore.ieee.org/document/8506600) | [**github**](https://github.com/yhlleo/RoadNet?tab=readme-ov-file) |
+  [**download(BaiduYun Password: h2zt)**](https://pan.baidu.com/s/1l9RZvyYfLgTOx_k4LQRyhQ) | [**download(GoogleDrive)**](https://drive.google.com/open?id=1GDHy7uwgOswuCDC49OamlNkAxjaITPBI)
 
   加拿大渥太华几个典型的城区，图像的空间分辨率为每像素 0.21 米
 
-  [**原文**](https://ieeexplore.ieee.org/document/8506600) | [**github**](https://github.com/yhlleo/RoadNet?tab=readme-ov-file) |  
-  [**BaiduYun（Password: h2zt）**](https://pan.baidu.com/s/1l9RZvyYfLgTOx_k4LQRyhQ) | [**GoogleDrive**](https://drive.google.com/open?id=1GDHy7uwgOswuCDC49OamlNkAxjaITPBI)
 
 ##  Multi-class Dataset
 - **<font size=5>LoveDA</font>**
