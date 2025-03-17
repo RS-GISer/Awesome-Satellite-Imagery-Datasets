@@ -1,6 +1,6 @@
 
 
-# Awesome Satellite Imagery Datasets 
+# Awesome-Satellite-Imagery-Datasets
 
 ⭐ 一个遥感相关的开源数据集，包含语义分割、目标提取、变化检测等 
 
